@@ -1,0 +1,38 @@
+h1{
+    background-image: linear-gradient(to right, blue, black);
+    color: silver;
+    text-align: center;
+}
+
+h2{
+    color: rgb(8, 8, 8);
+}
+
+h2:hover{
+    color: blue;
+    letter-spacing: 2px;
+}
+
+button{
+    background-color: darkblue;
+}
+
+input[type='submit']{
+    background-color: darkblue;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid blue;
+}
+
+main{
+    padding-left: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+  margin: 0;
+}
